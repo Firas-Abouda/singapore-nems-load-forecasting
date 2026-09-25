@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "numpy>=2.4.6",
+    "pandas>=3.0.6",
+    "xlrd>=2.0.2",
+]
 
 [project.scripts]
 singapore-nems-load-forecasting = "singapore_nems_load_forecasting:main"
